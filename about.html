@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="about">
+        <div class="images">
+            <img src="assets/rcb 04.webp" alt="tent-1" class="tent-1" />
+        </div>
+        <div class="aboutcontent">
+            <h2>About Us</h2>
+            <br><br>
+            <p>Joining RCB means being part of a team that exudes flair, passion, and a hunger for victory. The franchise has a history of signing some of the biggest names in cricket, creating an environment where talent thrives and excellence is demanded. As a player, you're surrounded by legends like Virat Kohli and AB de Villiers, whose dedication and skill inspire everyone around them to push their limits.</p>
+        </div>        
+    </div>
+</body>
+<script>
+    const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+ScrollReveal().reveal(".about", {
+  ...scrollRevealOption,
+  delay:500
+});
+ScrollReveal().reveal(".about tent-1", {
+  ...scrollRevealOption,
+  delay:1000,
+  duration: 2000
+});
+</script>
+</html>
